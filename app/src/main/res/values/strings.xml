@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoProject</string>
+    <string name="something_went_wrong">Something went wrong. Please try to refresh</string>
+    <string name="no_data_available">There\'s no data. Please try to refresh</string>
+</resources>
