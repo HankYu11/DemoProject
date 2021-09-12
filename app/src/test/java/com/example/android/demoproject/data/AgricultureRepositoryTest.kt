@@ -4,6 +4,7 @@ import app.cash.turbine.test
 import com.example.android.demoproject.data.domain.Agriculture
 import com.example.android.demoproject.data.remote.Response
 import com.example.android.demoproject.data.remote.asDomain
+import com.example.android.demoproject.utils.FakeAgricultureRepository
 import com.example.android.demoproject.utils.MainCoroutineScopeRule
 import com.example.android.demoproject.utils.MockDataUtils
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -38,6 +39,7 @@ class AgricultureRepositoryImplTest {
                 assertEquals(mockAgricultureResponse.dataList.map { it.asDomain() }, item)
                 expectComplete()
             }
+            agricultureRepository.getAgricultureInMarket()
         }
 
     @Test

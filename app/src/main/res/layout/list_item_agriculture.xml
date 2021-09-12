@@ -22,7 +22,7 @@
             app:layout_constraintHorizontal_weight="2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="2019 Honda Civic" />
+            tools:text="菠菜" />
 
         <TextView
             android:id="@+id/averagePrice"
@@ -33,7 +33,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/agricultureName"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="$17500" />
+            tools:text="$175" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
